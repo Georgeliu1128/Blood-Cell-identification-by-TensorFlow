@@ -1,10 +1,30 @@
 # Blood-Cell-identification-by-TensorFlow
-# Table of Contents
--[About This Dataset](#📘 About_This_Dataset)
--[Identify the cell type by Tensorflow](##Identify_the cell_type_by_Tensorflow)
+## Table of Contents
+-[Project Overviews](#Project_Overviews)
+-[About This Dataset](#📘_About_This_Dataset)
 
+## Project Overviews
+This project demonstrates an end‑to‑end deep learning workflow for automated blood cell classification using TensorFlow. Leveraging a curated dataset of 12,500 augmented white blood cell images, the goal is to build a reliable model capable of distinguishing between four major cell types: Eosinophil, Lymphocyte, Monocyte, and Neutrophil.
+The notebook walks through the full machine learning pipeline:
 
-##📘 About This Dataset
+Data ingestion & preprocessing  
+Images are loaded from structured folders, resized, normalized, and prepared using TensorFlow’s efficient tf.data pipeline.
+
+Exploratory visualization  
+Sample images and class distributions are examined to understand dataset balance and visual characteristics.
+
+Model development  
+A Convolutional Neural Network (CNN) is constructed to learn discriminative features from cell morphology and texture.
+
+Training & evaluation  
+The model is trained on the augmented dataset and evaluated on a held‑out validation set to measure classification performance.
+
+Prediction & interpretation  
+The trained model is used to classify new images, demonstrating its ability to generalize to unseen samples.
+
+This project highlights how deep learning can support medical image analysis by automating routine classification tasks that traditionally require expert review. The workflow is fully reproducible and serves as a practical example of applying TensorFlow to real‑world biomedical imaging problems. [Tensorflow code and images](blood-cell-identification-with-images.ipynb)
+
+## 📘 About This Dataset
 Accurate identification of blood cell subtypes plays a crucial role in diagnosing a wide range of blood‑related diseases. Automated image‑based classification systems can significantly improve diagnostic speed, consistency, and scalability in clinical workflows. This project uses a curated and augmented collection of blood cell images to train and evaluate deep learning models for cell‑type recognition.
 Dataset Overview
 The dataset includes 12,500 augmented blood‑cell images (JPEG) paired with cell‑type labels (CSV). Images are organized into four folders corresponding to the four major white blood cell subtypes:
@@ -24,6 +44,5 @@ Dataset source:
 BCCD Dataset — [https://github.com/Shenggan/BCCD_Dataset](https://github.com/Shenggan/BCCD_Dataset)
 Licensed under the MIT License.
 
-##Identify the cell type by Tensorflow
 
-[Code and iamges lins](blood-cell-identification-with-images.ipynb)
+
