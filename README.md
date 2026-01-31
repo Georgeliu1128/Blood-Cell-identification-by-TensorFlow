@@ -1,7 +1,7 @@
 # Blood-Cell-identification-by-TensorFlow
 ## Table of Contents
--[Project Overviews](#project_overviews)\
--[About This Dataset](#about_this_dataset)
+- [Project Overviews](#project_overviews)
+- [About This Dataset](#about_this_dataset)
 
 ## Project Overviews
 This project demonstrates an end‑to‑end deep learning workflow for automated blood cell classification using TensorFlow. Leveraging a curated dataset of 12,500 augmented white blood cell images, the goal is to build a reliable model capable of distinguishing between four major cell types: Eosinophil, Lymphocyte, Monocyte, and Neutrophil.
