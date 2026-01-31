@@ -22,7 +22,9 @@ The model is trained on the augmented dataset and evaluated on a held‑out vali
 Prediction & interpretation  
 The trained model is used to classify new images, demonstrating its ability to generalize to unseen samples.
 
-This project highlights how deep learning can support medical image analysis by automating routine classification tasks that traditionally require expert review. The workflow is fully reproducible and serves as a practical example of applying TensorFlow to real‑world biomedical imaging problems. [Tensorflow code and images](blood-cell-identification-with-images.ipynb)
+This project highlights how deep learning can support medical image analysis by automating routine classification tasks that traditionally require expert review. The workflow is fully reproducible and serves as a practical example of applying TensorFlow to real‑world biomedical imaging problems. 
+
+[Tensorflow code and images](blood-cell-identification-with-images.ipynb)
 
 ## About This Dataset
 Accurate identification of blood cell subtypes plays a crucial role in diagnosing a wide range of blood‑related diseases. Automated image‑based classification systems can significantly improve diagnostic speed, consistency, and scalability in clinical workflows. This project uses a curated and augmented collection of blood cell images to train and evaluate deep learning models for cell‑type recognition.
